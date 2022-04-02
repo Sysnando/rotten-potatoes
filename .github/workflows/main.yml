@@ -24,7 +24,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             sysfel/rotten-potatoes:latest
             sysfel/rotten-potatoes:${{ github.run_number }}
             

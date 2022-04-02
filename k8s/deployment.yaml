@@ -82,7 +82,7 @@ spec:
   - port: 80
     targetPort: 5000 # porta alvo
     nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
 
 
 
